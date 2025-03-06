@@ -3,10 +3,13 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+    #  - main
+      - kavi-tatacom
   pull_request:
     branches:
-      - main
+    #  - main
+      - kavi-tatacom
+  workflow_dispatch
 
 jobs:
   build:
